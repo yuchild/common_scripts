@@ -26,4 +26,5 @@ def value_plots(df_series, y_label, x_label, title):
     plt.xlabel(x_label)
     plt.title(title)
     plt.gca().invert_yaxis()
+    plt.tight_layout
 
